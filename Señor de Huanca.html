@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heladería Señor de Huanca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E0F7FA; /* Turquesa claro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #008080; /* Turquesa oscuro */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #004D4D;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .banner {
+            background-image: url('banner-image.jpg'); /* Cambia por la imagen relevante */
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #008080;
+            text-align: center;
+        }
+
+        .productos {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .producto {
+            text-align: center;
+            width: 30%;
+        }
+
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .add-to-cart {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #008080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .add-to-cart:hover {
+            background-color: #004D4D;
+        }
+
+        .video-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+        }
+
+        .contacto {
+            margin-top: 10px;
+        }
+
+        .localizacion {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .iframe-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Heladería Señor de Huanca</h1>
+        <p>¡Tradición que endulza desde el 2015!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#video">Video</a>
+        <a href="#contacto">Contáctenos</a>
+    </nav>
+
+    <div class="banner" id="inicio">
+        Bienvenidos a la Heladería Señor de Huanca
+    </div>
+
+    <div class="container">
+        <h2 id="productos">Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="Heladodecono.PNG" alt="Helado">
+                <p>Helado Artesanal</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="Heladodefresa.PNG" alt="Cremolada">
+                <p>Cremolada Natural</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="producto">
+                <img src="Heladoenvaso.PNG" alt="Pastel">
+                <p>Pastel de Chocolate</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-section" id="video">
+    <h2>Video de Nuestra Historia</h2>
+    <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/webzopIkIyY" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+    </div>
+
+    <div class="localizacion">
+        <h2>Nuestras Tiendas</h2>
+        <p>Tienda Plaza de Armas, Azángaro</p>
+        <p>Tienda Plaza de Armas, Asillo</p>
+        <p>Tienda Plaza de Armas, Caminaca</p>
+    </div>
+
+    <footer>
+        <p>© 2024 Heladería Señor de Huanca. Todos los derechos reservados.</p>
+        <div class="contacto">
+            <p><strong>Contáctenos:</strong></p>
+            <p>Tel: +51 935 033 130 | Email: fredy.choquemamani@upeu.edu.pe</p>
+        </div>
+    </footer>
+
+</body>
+</html>
